@@ -33,28 +33,23 @@ Silent City: dB Down is an engaging simulation game built with Pygame that chall
 # Installation
 To run Silent City: dB Down, you'll need Python and Pygame installed.
 1. Clone the repository (or download the source code):
-git clone https://github.com/your-username/silent-city-db-down.git
-cd silent-city-db-down
-(Replace your-username with your actual GitHub username if you fork it)
+     git clone https://github.com/your-username/silent-city-db-down.git
+     cd silent-city-db-down
+     (Replace your-username with your actual GitHub username if you fork it)
+2. Install Pygame:
+     If you don't have Pygame installed, you can install it via pip:
+     pip install pygame
+3. Optional: Add Sound Assets:
+     For sound effects, create an assets folder in the same directory as the game script and place select.wav and reduce.wav files inside it.
+     silent-city-db-down/
+    ├── game_script.py
+    └── assets/
+        ├── select.wav
+        └── reduce.wav
 
-Install Pygame:
-If you don't have Pygame installed, you can install it via pip:
-
-pip install pygame
-
-Optional: Add Sound Assets:
-For sound effects, create an assets folder in the same directory as the game script and place select.wav and reduce.wav files inside it.
-
-silent-city-db-down/
-├── game_script.py
-└── assets/
-    ├── select.wav
-    └── reduce.wav
-
-▶️ Running the Game
+# Running the Game
 Once Pygame is installed and you have the game script, simply run it from your terminal:
-
-python game_script.py
+  python game_script.py
 
 (Replace game_script.py with the actual name of your Python game file)
 
