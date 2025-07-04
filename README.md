@@ -35,7 +35,9 @@ To run Silent City: dB Down, you'll need Python and Pygame installed.
 1. Clone the repository (or download the source code):
 
     git clone https://github.com/your-username/silent-city-db-down.git
+
     cd silent-city-db-down
+
     (Replace your-username with your actual GitHub username)
    
 3. Install Pygame:
