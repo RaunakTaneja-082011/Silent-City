@@ -1,14 +1,12 @@
 # Silent-City
 A Pygame simulation game where you strategically place barriers and trees to reduce noise pollution across a city grid. Can you bring peace and quiet back to the urban landscape?
 
-🎮 Game Overview
+# Game Overview
 Silent City: dB Down is an engaging simulation game built with Pygame that challenges players to manage and reduce noise levels in a dynamic city environment. The city is represented by a grid, with each cell indicating a specific noise level in decibels (dB). Your mission is to strategically deploy noise-reducing elements like barriers and trees to lower the average noise across the city to an acceptable level, progressing through various challenging levels.
 
-✨ Features
-Dynamic Noise Grid: Each cell on the 5x5 grid has a random noise level (50-90 dB).
-
+# Features
+- Dynamic Noise Grid: Each cell on the 5x5 grid has a random noise level (50-90 dB).
 Strategic Noise Reduction:
-
 Barriers (R key): Reduce noise by 10 dB per placement.
 
 Trees (T key): Reduce noise by 5 dB per placement.
