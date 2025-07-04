@@ -53,11 +53,8 @@ To run Silent City: dB Down, you'll need Python and Pygame installed.
      silent-city-db-down/
 
     ├── game_script.py
-   
     └── assets/
-   
         ├── select.wav
-   
         └── reduce.wav
 
 # Running the Game
