@@ -6,56 +6,35 @@ Silent City: dB Down is an engaging simulation game built with Pygame that chall
 
 # Features
 - Dynamic Noise Grid: Each cell on the 5x5 grid has a random noise level (50-90 dB).
-Strategic Noise Reduction:
-Barriers (R key): Reduce noise by 10 dB per placement.
+- Strategic Noise Reduction:
+  - Barriers (R key): Reduce noise by 10 dB per placement.
+  - Trees (T key): Reduce noise by 5 dB per placement.
+- Resource Management: Limited number of barriers and trees per level.
+- Progressive Levels: Three distinct levels with varying resource allocations and increasing difficulty.
+- Win/Loss Conditions: Win by reducing average noise below 60 dB; lose if resources run out and noise remains high.
+- Game State Management: Save and load game progress.
+- In-game Instructions: Toggleable help menu for easy reference.
+- Visual Feedback: Cells change color based on noise levels (green for low, yellow for moderate, red for high).
+- Sound Effects (Optional): Audio cues for cell selection and noise reduction.
 
-Trees (T key): Reduce noise by 5 dB per placement.
+# How to Play
+- Run the Game: Execute the Python script.
+- Select a Cell: Click on any cell in the grid to select it. The selected cell will be highlighted.
+- Reduce Noise:
+  - Press R to place a Barrier on the selected cell (reduces noise by 10 dB). This consumes one barrier resource.
+  - Press T to plant Trees on the selected cell (reduces noise by 5 dB). This consumes one tree resource.
+- Monitor Noise: Keep an eye on the "Average Noise" display. Your goal is to get it below 60 dB.
+- Game State Controls:
+- Press H to toggle Help/Instructions.
+- Press S to Save your current game progress.
+- Press L to Load a previously saved game.
+- Press N to start a New Game or advance to the next level after winning.
 
-Resource Management: Limited number of barriers and trees per level.
-
-Progressive Levels: Three distinct levels with varying resource allocations and increasing difficulty.
-
-Win/Loss Conditions: Win by reducing average noise below 60 dB; lose if resources run out and noise remains high.
-
-Game State Management: Save and load game progress.
-
-In-game Instructions: Toggleable help menu for easy reference.
-
-Visual Feedback: Cells change color based on noise levels (green for low, yellow for moderate, red for high).
-
-Sound Effects (Optional): Audio cues for cell selection and noise reduction.
-
-🕹️ How to Play
-Run the Game: Execute the Python script.
-
-Select a Cell: Click on any cell in the grid to select it. The selected cell will be highlighted.
-
-Reduce Noise:
-
-Press R to place a Barrier on the selected cell (reduces noise by 10 dB). This consumes one barrier resource.
-
-Press T to plant Trees on the selected cell (reduces noise by 5 dB). This consumes one tree resource.
-
-Monitor Noise: Keep an eye on the "Average Noise" display. Your goal is to get it below 60 dB.
-
-Game State Controls:
-
-Press H to toggle Help/Instructions.
-
-Press S to Save your current game progress.
-
-Press L to Load a previously saved game.
-
-Press N to start a New Game or advance to the next level after winning.
-
-🚀 Installation
+# Installation
 To run Silent City: dB Down, you'll need Python and Pygame installed.
-
-Clone the repository (or download the source code):
-
+1. Clone the repository (or download the source code):
 git clone https://github.com/your-username/silent-city-db-down.git
 cd silent-city-db-down
-
 (Replace your-username with your actual GitHub username if you fork it)
 
 Install Pygame:
